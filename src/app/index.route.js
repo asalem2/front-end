@@ -1,5 +1,6 @@
 export function routerConfig ($stateProvider, $urlRouterProvider) {
   'ngInject';
+  //home state aka default state
   $stateProvider
     .state('home', {
       url: '/',

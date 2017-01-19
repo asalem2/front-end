@@ -8,7 +8,7 @@ import { GithubContributorService } from '../app/components/githubContributor/gi
 import { WebDevTecService } from '../app/components/webDevTec/webDevTec.service';
 import { NavbarDirective } from '../app/components/navbar/navbar.directive';
 import { MalarkeyDirective } from '../app/components/malarkey/malarkey.directive';
-
+//myMessageFront can be given a different name, toastr is a notification library for showing notifications
 angular.module('myMessageFront', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngMessages', 'ngAria', 'ui.router', 'ui.bootstrap', 'toastr'])
   .constant('malarkey', malarkey)
   .constant('moment', moment)
